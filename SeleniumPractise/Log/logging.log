@@ -1,0 +1,4 @@
+2024=05=18 17:11:09 INFO  PropertyLog4jExample:15 - This is a info message
+2024=05=18 17:11:09 WARN  PropertyLog4jExample:16 - This is a warn message
+2024=05=18 17:11:09 ERROR PropertyLog4jExample:17 - This is a error message
+2024=05=18 17:11:09 FATAL PropertyLog4jExample:18 - This is a fatal message

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Suite" verbose = "2" parallel = "methods" thread-count = "3">
+	<listeners>
+		<!-- <listener class-name = "testNG.ListenersExample"></listener> -->
+		<listener class-name = "selenium.Transformer"></listener>
+	</listeners>
+	<test name = "Login to Application">
+	<!-- <parameter name = "userName" value ="support@speedstep.de"></parameter>
+	<parameter name = "password" value ="Speedstepger1848#y2"></parameter> -->
+		<!-- <parameter name="Name" value = "Thiyag"></parameter> -->
+		<!--<groups>
+			<run>
+				<include name = "Lenovo"></include>
+				<include name = "Moto"></include>
+			</run>
+		</groups>-->
+		<classes>
+			<class name="selenium.ReRunFailedTestCases"></class>
+			<!-- <class name="dataDriven.Login"></class> -->
+			<!--<class name="testNG.DependanciesManagement"></class>
+			<class name="testNG.DriveACar"></class>-->
+			<!-- <class name="testNG.SampleTestCase"></class> -->
+			<!-- <class name="testNG.SkipATestCase"></class> -->
+			<!--<class name="testNG.GroupingExample"></class>-->
+			<!--<class name="testNG.ParameterizationExample"></class>-->
+			<!--<class name="testNG.ParallelTesting"></class>-->
+			<!--<class name="testNG.AssertionsExample"></class>-->
+			<!--<class name="testNG.AnnotationHierarchy"></class>-->
+			<!-- <class name ="dataDriven.BothCorrect"></class> -->
+		</classes>
+	</test>
+	<!-- <test name = "BothInCorrect">
+	<parameter name = "userName" value ="support@spdstep.de"></parameter>
+	<parameter name = "password" value ="Speedstepr1848#y2"></parameter>
+		<classes>
+			<class name ="dataDriven.BothInCorrect"></class>
+		</classes>
+	</test>
+	<test name = "CorrectPassword">
+	<parameter name = "userName" value ="support@spdstep.de"></parameter>
+	<parameter name = "password" value ="Speedstepger1848#y2"></parameter>
+		<classes>
+			<class name ="dataDriven.CorrectPassword"></class>
+		</classes>
+	</test>
+	<test name = "CorrectUserName">
+	<parameter name = "userName" value ="support@speedstep.de"></parameter>
+	<parameter name = "password" value ="Speedstepg1848#y2"></parameter>
+		<classes>
+			<class name ="dataDriven.CorrectUserName"></class>
+		</classes>
+	</test> -->
+</suite>
