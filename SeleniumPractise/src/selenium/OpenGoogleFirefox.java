@@ -11,7 +11,5 @@ public class OpenGoogleFirefox {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in/");
-
 	}
-
 }
